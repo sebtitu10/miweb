@@ -23,4 +23,11 @@ public class archivo2 {
     public void setTamanio(String tamanio) {
         this.tamanio = tamanio;
     }
+
+    public static void Informacion (String nombre, String tamanio){
+
+        System.out.println("Informacion del archivo :"+nombre+" , "+tamanio);
+    }
+
+
 }
